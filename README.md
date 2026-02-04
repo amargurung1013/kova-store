@@ -21,19 +21,19 @@ cd kova-store
 Open a terminal in the kova-store folder:
 cd backend
 
-# Create virtual environment
+### Create virtual environment
 python -m venv venv
 
-# Activate it
-# Windows:
+### Activate it
+### Windows:
 venv\Scripts\activate
-# Mac/Linux:
+### Mac/Linux:
 source venv/bin/activate
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the Server
+### Run the Server
 uvicorn main:app --reload
 
 ### 3. Setup Frontend
@@ -41,8 +41,8 @@ Open a new terminal (keep the other one running)
 
 cd frontend
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run the website
+### Run the website
 npm run dev
