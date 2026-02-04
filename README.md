@@ -37,6 +37,18 @@ pip install -r requirements.txt
 ### Run the Server
 uvicorn main:app --reload
 
+For .env file
+EMAIL_USER=amargurung1013@gmail.com
+EMAIL_PASS=
+
+# Email Settings
+MAIL_USERNAME=yourgmail@.com
+MAIL_PASSWORD=app password
+MAIL_FROM="KOVA Store <yourgmail@gmail.com>"
+MAIL_PORT=465
+MAIL_SERVER=smtp.gmail.com
+
+
 ### 3. Setup Frontend
 Open a new terminal (keep the other one running)
 
