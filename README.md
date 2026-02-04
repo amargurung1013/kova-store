@@ -13,7 +13,8 @@ Make sure you have these installed:
 ### 1. Clone the Repository
 Open your terminal and run:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/kova-store.git](https://github.com/YOUR_USERNAME/kova-store.git)
+git clone https://github.com/amargurung1013/kova-store.git
+
 cd kova-store
 ```
 
