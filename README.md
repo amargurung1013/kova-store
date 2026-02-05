@@ -23,11 +23,11 @@ Open a terminal in the kova-store folder:
 cd backend
 
 ### Create virtual environment
-python -m venv venv
+python -m venv .venv
 
 ### Activate it
 ### Windows:
-.\venv\Scripts\activate.bat
+.\.venv\Scripts\activate
 ### Mac/Linux:
 source venv/bin/activate
 
